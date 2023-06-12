@@ -1,0 +1,162 @@
+
+.cuerpo{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.cabeza{
+    padding-top: 30px;
+}
+
+/*------TITULO DE COLORES------*/
+
+.titulo{
+    font-family: 'Modak';
+    font-weight: lighter;
+    text-align: center;
+    color:rgb(255, 68, 177);
+    justify-content: center;
+}
+.titulo .sp1{
+    color: rgb(255, 174, 0);
+}
+.titulo .sp2{
+    color:rgb(41, 250, 41) ;
+}
+
+/*------ SP= SALUDO Y PAUTAS------*/
+.container{
+    justify-content: center;
+    padding-top: 75px;
+}
+
+.sp{
+    text-align: left;
+    color:yellow;
+    font-family: 'Modak';
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+.Hi1{
+    text-align: center;   
+    color:rgb(255, 174, 0);
+    font-family: 'Modak';
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+
+/*------PREGUNTA------*/
+.preg{
+    text-align: left;
+    color:yellow;
+    font-family: 'Modak';
+    font-weight: lighter;
+    padding-top: 25px;
+}
+
+/****global****/
+.global{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/*------IMAGEN------*/
+.divimg{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.ima{
+    max-width: 100%;
+    height: min-content;
+    background-size: 10px 10px;
+}
+
+/*-----------FORMU---------*/
+.divfor{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.formu{
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    background: rgb(255,255,25);
+    background: linear-gradient(344deg, rgba(255,255,25,1) 35%, rgba(255,163,55,1) 66%);
+}
+.resp{
+    text-align: center;
+    font-family: 'Modak';
+    font-weight: lighter;
+    padding-top: 18px;
+    font-size: 20px;
+}
+.inp{
+    padding-left: 32px;
+}
+.rta{
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Modak';
+    font-weight:100;
+}
+
+/*-------BOTON  REULTADOS----*/
+.botonf{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 45px;
+}
+
+.boton{
+    border-radius: 15%;
+    font-family: 'Modak';
+    font-weight: 100;
+    font-size: 20px;
+    background-color:yellow; 
+}
+
+#resultado{
+    display: inline-flex;
+    font-size: 20px;
+    color:rgb(255, 68, 177);
+}
+/*---------BOTON REFRESH--------*/
+.botonrefres{
+    display:flex;
+    justify-content: left;
+    padding: 45px;
+}
+
+#botonre{
+    border-radius: 15%;
+    font-family: 'Modak';
+    font-weight: 100;
+    font-size: 20px;
+    background-color: rgb(41, 250, 41);
+}
+
+
+/*------FOOTER------*/
+.fo{
+    padding-top: 15px;
+}
+.pf{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+.hr{
+    padding: 1px;
+    background-color:#bebeb3;
+}
