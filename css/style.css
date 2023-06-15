@@ -70,13 +70,15 @@
 /*------IMAGEN------*/
 .divimg{
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.ima{
+.ima1{
+    justify-content: center;
     max-width: 100%;
     height: min-content;
     background-size: 100% 100%;
+    padding: 20px;
 }
 
 /*-----------FORMU---------*/
