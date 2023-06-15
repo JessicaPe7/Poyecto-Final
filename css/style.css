@@ -76,7 +76,7 @@
 .ima{
     max-width: 100%;
     height: min-content;
-    background-size: 10px 10px;
+    background-size: 100% 100%;
 }
 
 /*-----------FORMU---------*/
