@@ -16,7 +16,12 @@ let almacenar = function(){
             incorrectas = incorrectas + 1;
         }
     }
-    resultado.textContent = "Tivuste " + correctas + " respuestas correctas, y " + incorrectas + " respuestas incorrectas.";
+    
+    if (correctas == 10){
+        resultado.textContent = "¡¡¡FELICIDADES RESPONDISTE TODAS LAS PREGUNTAS BIEN!!!";
+    }else{
+        resultado.textContent = "TUVISTE " + correctas + " RESPUESAS CORRECTAS, Y " + incorrectas + " RESPUESTAS INCORRECTAS. VUELVE A INTENTARLO, TU PUEDES...";    
+    }
 
 }
 
